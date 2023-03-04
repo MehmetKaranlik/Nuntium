@@ -15,6 +15,11 @@
 		469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA81129AA6358005BB4FD /* ProductInitialize.swift */; };
 		469AA81429AA64E6005BB4FD /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA81329AA64E6005BB4FD /* Colors.swift */; };
 		469AA81629AA64EE005BB4FD /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469AA81529AA64EE005BB4FD /* Sizes.swift */; };
+		46B1F24E29B2F2B100537AF4 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F24D29B2F2B100537AF4 /* SplashViewController.swift */; };
+		46B1F25029B2F2C800537AF4 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F24F29B2F2C800537AF4 /* SplashView.swift */; };
+		46B1F25229B2F7FA00537AF4 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F25129B2F7FA00537AF4 /* Icons.swift */; };
+		46B1F25729B2F89E00537AF4 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F25629B2F89E00537AF4 /* AppConstants.swift */; };
+		46B1F25A29B2F92100537AF4 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F25929B2F92100537AF4 /* SplashViewModel.swift */; };
 		46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D960ED29A2C64B008F54E6 /* AppDelegate.swift */; };
 		46D960F029A2C64B008F54E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D960EF29A2C64B008F54E6 /* SceneDelegate.swift */; };
 		46D960F729A2C64C008F54E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D960F629A2C64C008F54E6 /* Assets.xcassets */; };
@@ -29,6 +34,11 @@
 		469AA81329AA64E6005BB4FD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		469AA81529AA64EE005BB4FD /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
 		46B1F24729B2F15300537AF4 /* Nuntium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nuntium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B1F24D29B2F2B100537AF4 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		46B1F24F29B2F2C800537AF4 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		46B1F25129B2F7FA00537AF4 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		46B1F25629B2F89E00537AF4 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		46B1F25929B2F92100537AF4 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		46D960ED29A2C64B008F54E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D960EF29A2C64B008F54E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		46D960F629A2C64C008F54E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +71,7 @@
 		4652B02C29A4421C00C9F94B /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				46B1F25429B2F89100537AF4 /* Utility */,
 				469AA81029AA634C005BB4FD /* Init */,
 				469AA80D29AA6007005BB4FD /* DesignKit */,
 				46D9615729A2F3EB008F54E6 /* Networking */,
@@ -91,6 +102,7 @@
 				469AA80E29AA6014005BB4FD /* Fonts.swift */,
 				469AA81329AA64E6005BB4FD /* Colors.swift */,
 				469AA81529AA64EE005BB4FD /* Sizes.swift */,
+				46B1F25129B2F7FA00537AF4 /* Icons.swift */,
 			);
 			path = DesignKit;
 			sourceTree = "<group>";
@@ -101,6 +113,64 @@
 				469AA81129AA6358005BB4FD /* ProductInitialize.swift */,
 			);
 			path = Init;
+			sourceTree = "<group>";
+		};
+		46B1F24829B2F24800537AF4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				46B1F24929B2F25500537AF4 /* Splash */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		46B1F24929B2F25500537AF4 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				46B1F24C29B2F2A600537AF4 /* ViewController */,
+				46B1F24B29B2F25F00537AF4 /* ViewModel */,
+				46B1F24A29B2F25C00537AF4 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		46B1F24A29B2F25C00537AF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46B1F24F29B2F2C800537AF4 /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46B1F24B29B2F25F00537AF4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				46B1F25929B2F92100537AF4 /* SplashViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		46B1F24C29B2F2A600537AF4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46B1F24D29B2F2B100537AF4 /* SplashViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		46B1F25329B2F88800537AF4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				46B1F25629B2F89E00537AF4 /* AppConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		46B1F25429B2F89100537AF4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				46B1F25329B2F88800537AF4 /* Constants */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		46D960E129A2C64B008F54E6 = {
@@ -137,6 +207,7 @@
 		46D9613E29A2EE05008F54E6 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				46B1F24829B2F24800537AF4 /* Auth */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -232,9 +303,14 @@
 				46D9615C29A2F41E008F54E6 /* ProductNetworkManager.swift in Sources */,
 				469AA81429AA64E6005BB4FD /* Colors.swift in Sources */,
 				469AA80F29AA6014005BB4FD /* Fonts.swift in Sources */,
+				46B1F24E29B2F2B100537AF4 /* SplashViewController.swift in Sources */,
 				469AA81629AA64EE005BB4FD /* Sizes.swift in Sources */,
+				46B1F25229B2F7FA00537AF4 /* Icons.swift in Sources */,
 				469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */,
+				46B1F25729B2F89E00537AF4 /* AppConstants.swift in Sources */,
+				46B1F25A29B2F92100537AF4 /* SplashViewModel.swift in Sources */,
 				46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */,
+				46B1F25029B2F2C800537AF4 /* SplashView.swift in Sources */,
 				46D960F029A2C64B008F54E6 /* SceneDelegate.swift in Sources */,
 				4652B03029A4422F00C9F94B /* BaseErrorModel.swift in Sources */,
 			);

@@ -11,27 +11,28 @@ import SwiftUI
 
 /// Set your design values here to initialize DesignKit
 struct Colors : AppColors {
-   var primary: Color?
+   var primary: Color? = Color("PurplePrimary")
 
-   var primaryVariant: Color?
+   var primaryVariant: Color? = Color("PurpleLight")
 
-   var primaryContainer: Color?
+   var primaryContainer: Color? = Color("PurpleDark")
 
-   var secondary: Color?
+   var secondary: Color? = Color("BlackPrimary")
 
-   var secondaryVariant: Color?
+   var secondaryVariant: Color? = Color("BlackLight")
 
-   var secondaryContainer: Color?
+   var secondaryContainer: Color? = Color("BlackDark")
 
-   var tertiary: Color?
+   var tertiary: Color? = Color("GreyPrimary")
 
-   var tertiaryVariant: Color?
+   var tertiaryVariant: Color? = Color("GreyLight")
 
-   var tertiaryContainer: Color?
+   var tertiaryContainer: Color? = Color("GreyDark")
 
-   var surface: Color?
+   var surface: Color? = Color("PurpleLighter")
 
-   var onSurface: Color?
+   var onSurface: Color? = Color("GreyLighter")
 
    
 }
+
