@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MehmetKaranlik/Core.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "786142676a540d5513cd16888edde82d3bc6f17d"
+      }
+    },
+    {
+      "identity" : "designkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MehmetKaranlik/DesignKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d23543ee5f8c4694d4e8a381607ad216a54945c2"
+      }
+    },
+    {
+      "identity" : "networkmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MehmetKaranlik/NetworkManager",
+      "state" : {
+        "branch" : "main",
+        "revision" : "815a1292f7874296ffd661deef39897e764ba7be"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "a7d486d07b821e28ffd3587e99355a63148cbb43",
+        "version" : "13.4.1"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "revision" : "4d55ba88e78ed427eae439e7c15fac2372f95c64",
+        "version" : "10.36.0"
+      }
+    }
+  ],
+  "version" : 2
+}
