@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4646E0D729B4ADD600A22041 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4646E0D629B4ADD600A22041 /* Icons.xcassets */; };
+		4646E0DB29B4BB4F00A22041 /* ActiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0DA29B4BB4F00A22041 /* ActiveButton.swift */; };
+		4646E0DD29B4C55100A22041 /* ButtonSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0DC29B4C55100A22041 /* ButtonSizes.swift */; };
+		4646E0DF29B4C83400A22041 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0DE29B4C83400A22041 /* OnboardingViewModel.swift */; };
 		4652B03029A4422F00C9F94B /* BaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */; };
 		4657603F29B16A5200BA8AC8 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4657603E29B16A5200BA8AC8 /* Core */; };
 		4657604229B16A6100BA8AC8 /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4657604129B16A6100BA8AC8 /* DesignKit */; };
@@ -20,6 +24,8 @@
 		46B1F25229B2F7FA00537AF4 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F25129B2F7FA00537AF4 /* Icons.swift */; };
 		46B1F25729B2F89E00537AF4 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F25629B2F89E00537AF4 /* AppConstants.swift */; };
 		46B1F25A29B2F92100537AF4 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F25929B2F92100537AF4 /* SplashViewModel.swift */; };
+		46B1F26029B345CA00537AF4 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F25F29B345CA00537AF4 /* OnboardingViewController.swift */; };
+		46B1F26229B345EE00537AF4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B1F26129B345EE00537AF4 /* OnboardingView.swift */; };
 		46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D960ED29A2C64B008F54E6 /* AppDelegate.swift */; };
 		46D960F029A2C64B008F54E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D960EF29A2C64B008F54E6 /* SceneDelegate.swift */; };
 		46D960F729A2C64C008F54E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D960F629A2C64C008F54E6 /* Assets.xcassets */; };
@@ -28,6 +34,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4646E0D629B4ADD600A22041 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		4646E0DA29B4BB4F00A22041 /* ActiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveButton.swift; sourceTree = "<group>"; };
+		4646E0DC29B4C55100A22041 /* ButtonSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSizes.swift; sourceTree = "<group>"; };
+		4646E0DE29B4C83400A22041 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseErrorModel.swift; sourceTree = "<group>"; };
 		469AA80E29AA6014005BB4FD /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		469AA81129AA6358005BB4FD /* ProductInitialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInitialize.swift; sourceTree = "<group>"; };
@@ -39,6 +49,8 @@
 		46B1F25129B2F7FA00537AF4 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		46B1F25629B2F89E00537AF4 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		46B1F25929B2F92100537AF4 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		46B1F25F29B345CA00537AF4 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		46B1F26129B345EE00537AF4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		46D960ED29A2C64B008F54E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D960EF29A2C64B008F54E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		46D960F629A2C64C008F54E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,9 +80,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4646E0D829B4BB3C00A22041 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0D929B4BB4300A22041 /* Button */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		4646E0D929B4BB4300A22041 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0DA29B4BB4F00A22041 /* ActiveButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		4646E0E029B4CCB500A22041 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0DE29B4C83400A22041 /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		4652B02C29A4421C00C9F94B /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				4646E0D829B4BB3C00A22041 /* SubViews */,
 				46B1F25429B2F89100537AF4 /* Utility */,
 				469AA81029AA634C005BB4FD /* Init */,
 				469AA80D29AA6007005BB4FD /* DesignKit */,
@@ -118,6 +155,7 @@
 		46B1F24829B2F24800537AF4 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				46B1F25B29B345A100537AF4 /* Onboarding */,
 				46B1F24929B2F25500537AF4 /* Splash */,
 			);
 			path = Auth;
@@ -161,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				46B1F25629B2F89E00537AF4 /* AppConstants.swift */,
+				4646E0DC29B4C55100A22041 /* ButtonSizes.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -171,6 +210,32 @@
 				46B1F25329B2F88800537AF4 /* Constants */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		46B1F25B29B345A100537AF4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0E029B4CCB500A22041 /* ViewModel */,
+				46B1F25D29B345B800537AF4 /* View */,
+				46B1F25C29B345B500537AF4 /* ViewController */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		46B1F25C29B345B500537AF4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46B1F25F29B345CA00537AF4 /* OnboardingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		46B1F25D29B345B800537AF4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46B1F26129B345EE00537AF4 /* OnboardingView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		46D960E129A2C64B008F54E6 = {
@@ -200,6 +265,7 @@
 				46D960ED29A2C64B008F54E6 /* AppDelegate.swift */,
 				46D960F629A2C64C008F54E6 /* Assets.xcassets */,
 				46D960FB29A2C64C008F54E6 /* Info.plist */,
+				4646E0D629B4ADD600A22041 /* Icons.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -289,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46D9615629A2F37C008F54E6 /* README.md in Resources */,
+				4646E0D729B4ADD600A22041 /* Icons.xcassets in Resources */,
 				46D960F729A2C64C008F54E6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +370,19 @@
 				46D9615C29A2F41E008F54E6 /* ProductNetworkManager.swift in Sources */,
 				469AA81429AA64E6005BB4FD /* Colors.swift in Sources */,
 				469AA80F29AA6014005BB4FD /* Fonts.swift in Sources */,
+				46B1F26229B345EE00537AF4 /* OnboardingView.swift in Sources */,
 				46B1F24E29B2F2B100537AF4 /* SplashViewController.swift in Sources */,
+				4646E0DB29B4BB4F00A22041 /* ActiveButton.swift in Sources */,
 				469AA81629AA64EE005BB4FD /* Sizes.swift in Sources */,
 				46B1F25229B2F7FA00537AF4 /* Icons.swift in Sources */,
 				469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */,
 				46B1F25729B2F89E00537AF4 /* AppConstants.swift in Sources */,
 				46B1F25A29B2F92100537AF4 /* SplashViewModel.swift in Sources */,
+				4646E0DD29B4C55100A22041 /* ButtonSizes.swift in Sources */,
 				46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */,
+				4646E0DF29B4C83400A22041 /* OnboardingViewModel.swift in Sources */,
 				46B1F25029B2F2C800537AF4 /* SplashView.swift in Sources */,
+				46B1F26029B345CA00537AF4 /* OnboardingViewController.swift in Sources */,
 				46D960F029A2C64B008F54E6 /* SceneDelegate.swift in Sources */,
 				4652B03029A4422F00C9F94B /* BaseErrorModel.swift in Sources */,
 			);
@@ -447,6 +519,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,6 +547,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

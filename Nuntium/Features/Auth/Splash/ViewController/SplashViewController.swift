@@ -31,7 +31,7 @@ class SplashViewController : UIViewController {
 
 extension SplashViewController : SplashViewDelegate {
    func didComplete() {
-      navigationController?.pushViewController(EmptyView().toHostingController(), animated: true)
+      replaceRoot(OnboardingViewController())
    }
 
 

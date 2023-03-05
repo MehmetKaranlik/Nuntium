@@ -15,7 +15,7 @@
       "location" : "https://github.com/MehmetKaranlik/DesignKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "d23543ee5f8c4694d4e8a381607ad216a54945c2"
+        "revision" : "24b16a8a489cc92d69f3ab8a97ba9651900a9bea"
       }
     },
     {
@@ -24,7 +24,7 @@
       "location" : "https://github.com/MehmetKaranlik/NetworkManager",
       "state" : {
         "branch" : "main",
-        "revision" : "815a1292f7874296ffd661deef39897e764ba7be"
+        "revision" : "cd5716d1cda96761c16996397fcf5be97e70d6ab"
       }
     },
     {

@@ -10,4 +10,8 @@ import SwiftUI
 
 struct Icons {
    static let appLogo : Image = Image("AppLogo")
+
+   struct Onboarding {
+      static let image = Image("Onboarding")
+   }
 }
