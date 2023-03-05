@@ -14,4 +14,14 @@ struct Icons {
    struct Onboarding {
       static let image = Image("Onboarding")
    }
+
+   struct General {
+      static let mail = Image("mail")
+      static let lock = Image("lock")
+   }
+
+   struct SpecialLogin {
+      static let google = Image("google-logo")
+      static let facebook = Image("facebook-logo")
+   }
 }

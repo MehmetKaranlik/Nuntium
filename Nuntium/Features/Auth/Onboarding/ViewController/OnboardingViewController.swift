@@ -31,7 +31,7 @@ final class OnboardingViewController : UIViewController {
 
 extension OnboardingViewController : OnboardingDelegate {
    func didTryToNavigate() {
-      replaceRoot(EmptyView().toHostingController())
+      replaceRoot(WelcomeViewController().wrapNavigationController())
    }
 
 

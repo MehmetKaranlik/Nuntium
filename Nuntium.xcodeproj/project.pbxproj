@@ -11,6 +11,13 @@
 		4646E0DB29B4BB4F00A22041 /* ActiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0DA29B4BB4F00A22041 /* ActiveButton.swift */; };
 		4646E0DD29B4C55100A22041 /* ButtonSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0DC29B4C55100A22041 /* ButtonSizes.swift */; };
 		4646E0DF29B4C83400A22041 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0DE29B4C83400A22041 /* OnboardingViewModel.swift */; };
+		4646E0E529B4E8AA00A22041 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0E429B4E8AA00A22041 /* WelcomeViewController.swift */; };
+		4646E0E729B4E8C200A22041 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0E629B4E8C200A22041 /* WelcomeView.swift */; };
+		4646E0EA29B4F01D00A22041 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0E929B4F01D00A22041 /* AuthTextField.swift */; };
+		4646E0ED29B4F0E400A22041 /* InsecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0EC29B4F0E400A22041 /* InsecureTextField.swift */; };
+		4646E0EF29B4F32200A22041 /* SecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0EE29B4F32200A22041 /* SecureTextField.swift */; };
+		4646E0F229B4F77B00A22041 /* SpecialLoginTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0F129B4F77B00A22041 /* SpecialLoginTypes.swift */; };
+		4646E0F429B4F94E00A22041 /* SpecialLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0F329B4F94E00A22041 /* SpecialLoginButton.swift */; };
 		4652B03029A4422F00C9F94B /* BaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */; };
 		4657603F29B16A5200BA8AC8 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4657603E29B16A5200BA8AC8 /* Core */; };
 		4657604229B16A6100BA8AC8 /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4657604129B16A6100BA8AC8 /* DesignKit */; };
@@ -38,6 +45,13 @@
 		4646E0DA29B4BB4F00A22041 /* ActiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveButton.swift; sourceTree = "<group>"; };
 		4646E0DC29B4C55100A22041 /* ButtonSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSizes.swift; sourceTree = "<group>"; };
 		4646E0DE29B4C83400A22041 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		4646E0E429B4E8AA00A22041 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4646E0E629B4E8C200A22041 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4646E0E929B4F01D00A22041 /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
+		4646E0EC29B4F0E400A22041 /* InsecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsecureTextField.swift; sourceTree = "<group>"; };
+		4646E0EE29B4F32200A22041 /* SecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextField.swift; sourceTree = "<group>"; };
+		4646E0F129B4F77B00A22041 /* SpecialLoginTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialLoginTypes.swift; sourceTree = "<group>"; };
+		4646E0F329B4F94E00A22041 /* SpecialLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialLoginButton.swift; sourceTree = "<group>"; };
 		4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseErrorModel.swift; sourceTree = "<group>"; };
 		469AA80E29AA6014005BB4FD /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		469AA81129AA6358005BB4FD /* ProductInitialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInitialize.swift; sourceTree = "<group>"; };
@@ -83,6 +97,7 @@
 		4646E0D829B4BB3C00A22041 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				4646E0EB29B4F0CF00A22041 /* TextField */,
 				4646E0D929B4BB4300A22041 /* Button */,
 			);
 			path = SubViews;
@@ -92,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				4646E0DA29B4BB4F00A22041 /* ActiveButton.swift */,
+				4646E0F329B4F94E00A22041 /* SpecialLoginButton.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -102,6 +118,48 @@
 				4646E0DE29B4C83400A22041 /* OnboardingViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4646E0E129B4E88B00A22041 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0E329B4E89300A22041 /* View */,
+				4646E0E229B4E88F00A22041 /* ViewController */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		4646E0E229B4E88F00A22041 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0E429B4E8AA00A22041 /* WelcomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4646E0E329B4E89300A22041 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0E629B4E8C200A22041 /* WelcomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4646E0E829B4F01100A22041 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0E929B4F01D00A22041 /* AuthTextField.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		4646E0EB29B4F0CF00A22041 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0EC29B4F0E400A22041 /* InsecureTextField.swift */,
+				4646E0EE29B4F32200A22041 /* SecureTextField.swift */,
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 		4652B02C29A4421C00C9F94B /* Product */ = {
@@ -120,6 +178,7 @@
 		4652B02D29A4422100C9F94B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4646E0E829B4F01100A22041 /* Protocol */,
 				4652B02E29A4422400C9F94B /* Base */,
 			);
 			path = Model;
@@ -155,6 +214,7 @@
 		46B1F24829B2F24800537AF4 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				4646E0E129B4E88B00A22041 /* Welcome */,
 				46B1F25B29B345A100537AF4 /* Onboarding */,
 				46B1F24929B2F25500537AF4 /* Splash */,
 			);
@@ -200,6 +260,7 @@
 			children = (
 				46B1F25629B2F89E00537AF4 /* AppConstants.swift */,
 				4646E0DC29B4C55100A22041 /* ButtonSizes.swift */,
+				4646E0F129B4F77B00A22041 /* SpecialLoginTypes.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -373,18 +434,25 @@
 				46B1F26229B345EE00537AF4 /* OnboardingView.swift in Sources */,
 				46B1F24E29B2F2B100537AF4 /* SplashViewController.swift in Sources */,
 				4646E0DB29B4BB4F00A22041 /* ActiveButton.swift in Sources */,
+				4646E0ED29B4F0E400A22041 /* InsecureTextField.swift in Sources */,
 				469AA81629AA64EE005BB4FD /* Sizes.swift in Sources */,
 				46B1F25229B2F7FA00537AF4 /* Icons.swift in Sources */,
+				4646E0F229B4F77B00A22041 /* SpecialLoginTypes.swift in Sources */,
 				469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */,
+				4646E0EA29B4F01D00A22041 /* AuthTextField.swift in Sources */,
 				46B1F25729B2F89E00537AF4 /* AppConstants.swift in Sources */,
 				46B1F25A29B2F92100537AF4 /* SplashViewModel.swift in Sources */,
 				4646E0DD29B4C55100A22041 /* ButtonSizes.swift in Sources */,
 				46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */,
 				4646E0DF29B4C83400A22041 /* OnboardingViewModel.swift in Sources */,
 				46B1F25029B2F2C800537AF4 /* SplashView.swift in Sources */,
+				4646E0E729B4E8C200A22041 /* WelcomeView.swift in Sources */,
 				46B1F26029B345CA00537AF4 /* OnboardingViewController.swift in Sources */,
 				46D960F029A2C64B008F54E6 /* SceneDelegate.swift in Sources */,
 				4652B03029A4422F00C9F94B /* BaseErrorModel.swift in Sources */,
+				4646E0F429B4F94E00A22041 /* SpecialLoginButton.swift in Sources */,
+				4646E0E529B4E8AA00A22041 /* WelcomeViewController.swift in Sources */,
+				4646E0EF29B4F32200A22041 /* SecureTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,8 +585,8 @@
 				INFOPLIST_FILE = Nuntium/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -527,9 +595,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.meatlanosrep.UIKit-SwiftUI-Architecture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -545,8 +616,8 @@
 				INFOPLIST_FILE = Nuntium/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -555,9 +626,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.meatlanosrep.UIKit-SwiftUI-Architecture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

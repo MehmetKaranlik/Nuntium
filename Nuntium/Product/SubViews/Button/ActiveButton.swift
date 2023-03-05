@@ -18,7 +18,7 @@ struct ActiveButton: View {
        Button(action: onTap) {
              ProductText.headline(label)
              .copyWith(color: .white)
-             .frame(maxWidth: .infinity, maxHeight: ButtonSizes.activeButtonHeight.rawValue)
+             .frame(maxWidth: .infinity, minHeight:  ButtonSizes.activeButtonHeight.rawValue)
              .background(color)
              .cornerRadius(cornerRadius ?? 0)
        }
