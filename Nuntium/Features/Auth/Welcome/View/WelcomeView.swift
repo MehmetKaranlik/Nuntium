@@ -5,11 +5,19 @@
 //  Created by mehmet karanlık on 5.03.2023.
 //
 
+import Core
 import DesignKit
 import SwiftUI
 
 struct WelcomeView: View {
+   var delegate: WelcomeViewController?
 
+   init(delegate : WelcomeViewController?=nil) {
+      self.delegate = delegate
+      assert(delegate != nil, "Delegate has not been setted")
+   }
+
+   
    var body: some View {
       VStack {
          UpperGroup()
@@ -17,7 +25,7 @@ struct WelcomeView: View {
          LowerGroup()
       }
       .padding(PagePadding.horizontal.standart)
-
+      .environmentOrNil(object: delegate)
    }
 }
 
@@ -45,7 +53,6 @@ private struct Subtitle: View {
             fontWeight: .medium
          )
          .frame(maxWidth: .infinity, alignment: .leading)
-
    }
 }
 
@@ -70,8 +77,11 @@ private struct ForgotPasswordButton: View {
 }
 
 private struct SignInButton: View {
+   @EnvironmentObject var delegate: WelcomeViewController
    var body: some View {
-      ActiveButton(onTap: {}, label: "Sign In")
+      ActiveButton(onTap: {
+         delegate.didTapSignIn()
+      }, label: "Sign In")
          .layoutPriority(1)
    }
 }
@@ -81,6 +91,7 @@ private struct OrSpacing: View {
       VStack {
          Spacer()
          ProductText.footnote("or")
+            .copyWith(color: Colors().tertiary, fontWeight: .bold)
          Spacer()
       }
    }
@@ -105,6 +116,7 @@ struct UpperGroup: View {
          Title()
          Subtitle()
          VerticalSpace.medium()
+
          TextFields(email: $email, password: $password)
          VerticalSpace.standart()
          ForgotPasswordButton()

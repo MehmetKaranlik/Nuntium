@@ -18,6 +18,8 @@
 		4646E0EF29B4F32200A22041 /* SecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0EE29B4F32200A22041 /* SecureTextField.swift */; };
 		4646E0F229B4F77B00A22041 /* SpecialLoginTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0F129B4F77B00A22041 /* SpecialLoginTypes.swift */; };
 		4646E0F429B4F94E00A22041 /* SpecialLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0F329B4F94E00A22041 /* SpecialLoginButton.swift */; };
+		4646E0F929B5562A00A22041 /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0F829B5562A00A22041 /* TopicsViewController.swift */; };
+		4646E0FD29B5564900A22041 /* TopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0FC29B5564900A22041 /* TopicsView.swift */; };
 		4652B03029A4422F00C9F94B /* BaseErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */; };
 		4657603F29B16A5200BA8AC8 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 4657603E29B16A5200BA8AC8 /* Core */; };
 		4657604229B16A6100BA8AC8 /* DesignKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4657604129B16A6100BA8AC8 /* DesignKit */; };
@@ -52,6 +54,8 @@
 		4646E0EE29B4F32200A22041 /* SecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextField.swift; sourceTree = "<group>"; };
 		4646E0F129B4F77B00A22041 /* SpecialLoginTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialLoginTypes.swift; sourceTree = "<group>"; };
 		4646E0F329B4F94E00A22041 /* SpecialLoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialLoginButton.swift; sourceTree = "<group>"; };
+		4646E0F829B5562A00A22041 /* TopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
+		4646E0FC29B5564900A22041 /* TopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsView.swift; sourceTree = "<group>"; };
 		4652B02F29A4422F00C9F94B /* BaseErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseErrorModel.swift; sourceTree = "<group>"; };
 		469AA80E29AA6014005BB4FD /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		469AA81129AA6358005BB4FD /* ProductInitialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInitialize.swift; sourceTree = "<group>"; };
@@ -160,6 +164,39 @@
 				4646E0EE29B4F32200A22041 /* SecureTextField.swift */,
 			);
 			path = TextField;
+			sourceTree = "<group>";
+		};
+		4646E0F529B5561100A22041 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0F629B5561800A22041 /* Topics */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		4646E0F629B5561800A22041 /* Topics */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0FA29B5563600A22041 /* View */,
+				4646E0F729B5561D00A22041 /* ViewController */,
+			);
+			path = Topics;
+			sourceTree = "<group>";
+		};
+		4646E0F729B5561D00A22041 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0F829B5562A00A22041 /* TopicsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4646E0FA29B5563600A22041 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4646E0FC29B5564900A22041 /* TopicsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4652B02C29A4421C00C9F94B /* Product */ = {
@@ -334,6 +371,7 @@
 		46D9613E29A2EE05008F54E6 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				4646E0F529B5561100A22041 /* SubViews */,
 				46B1F24829B2F24800537AF4 /* Auth */,
 			);
 			path = Features;
@@ -436,12 +474,14 @@
 				4646E0DB29B4BB4F00A22041 /* ActiveButton.swift in Sources */,
 				4646E0ED29B4F0E400A22041 /* InsecureTextField.swift in Sources */,
 				469AA81629AA64EE005BB4FD /* Sizes.swift in Sources */,
+				4646E0F929B5562A00A22041 /* TopicsViewController.swift in Sources */,
 				46B1F25229B2F7FA00537AF4 /* Icons.swift in Sources */,
 				4646E0F229B4F77B00A22041 /* SpecialLoginTypes.swift in Sources */,
 				469AA81229AA6358005BB4FD /* ProductInitialize.swift in Sources */,
 				4646E0EA29B4F01D00A22041 /* AuthTextField.swift in Sources */,
 				46B1F25729B2F89E00537AF4 /* AppConstants.swift in Sources */,
 				46B1F25A29B2F92100537AF4 /* SplashViewModel.swift in Sources */,
+				4646E0FD29B5564900A22041 /* TopicsView.swift in Sources */,
 				4646E0DD29B4C55100A22041 /* ButtonSizes.swift in Sources */,
 				46D960EE29A2C64B008F54E6 /* AppDelegate.swift in Sources */,
 				4646E0DF29B4C83400A22041 /* OnboardingViewModel.swift in Sources */,

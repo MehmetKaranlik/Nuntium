@@ -10,14 +10,25 @@ import Foundation
 import UIKit
 
 
+protocol WelcomeDelegate where Self : ObservableObject {
+   func didTapSignIn()
+}
+
 class WelcomeViewController : UIViewController {
-   let welcomeView = WelcomeView()
+   var welcomeView = WelcomeView()
 
    override func viewDidLoad() {
       super.viewDidLoad()
+      welcomeView.delegate = self
       let hosted = welcomeView.toHostingController()
       hosted.addToVC(target: self)
- 
+   }
+
+}
+
+extension WelcomeViewController : WelcomeDelegate, ObservableObject {
+   func didTapSignIn() {
+      replaceRoot(TopicsViewController())
    }
 
 
