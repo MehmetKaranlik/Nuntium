@@ -14,18 +14,19 @@ struct WelcomeView: View {
 
    init(delegate : WelcomeViewController?=nil) {
       self.delegate = delegate
-      assert(delegate != nil, "Delegate has not been setted")
    }
 
-   
+
    var body: some View {
-      VStack {
-         UpperGroup()
-         OrSpacing()
-         LowerGroup()
-      }
-      .padding(PagePadding.horizontal.standart)
-      .environmentOrNil(object: delegate)
+
+         VStack {
+            UpperGroup()
+            OrSpacing()
+            LowerGroup()
+         }
+         .padding(PagePadding.horizontal.standart)
+         .environmentOrNil(object: delegate)
+
    }
 }
 
@@ -116,7 +117,6 @@ struct UpperGroup: View {
          Title()
          Subtitle()
          VerticalSpace.medium()
-
          TextFields(email: $email, password: $password)
          VerticalSpace.standart()
          ForgotPasswordButton()

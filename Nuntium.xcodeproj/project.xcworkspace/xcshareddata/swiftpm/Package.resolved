@@ -15,7 +15,7 @@
       "location" : "https://github.com/MehmetKaranlik/DesignKit.git",
       "state" : {
         "branch" : "main",
-        "revision" : "24b16a8a489cc92d69f3ab8a97ba9651900a9bea"
+        "revision" : "4b9b2b7dfb220497f51ec13386f60127fee940f3"
       }
     },
     {
@@ -43,6 +43,24 @@
       "state" : {
         "revision" : "4d55ba88e78ed427eae439e7c15fac2372f95c64",
         "version" : "10.36.0"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "fb50c1d20f24db5322b2f8f379de3618f75fe08e",
+        "version" : "5.15.5"
+      }
+    },
+    {
+      "identity" : "sdwebimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI.git",
+      "state" : {
+        "revision" : "61fefe9c284fd41ddef77d02749e88f00c305196",
+        "version" : "2.2.2"
       }
     }
   ],

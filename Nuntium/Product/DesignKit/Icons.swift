@@ -24,4 +24,16 @@ struct Icons {
       static let google = Image("google-logo")
       static let facebook = Image("facebook-logo")
    }
+
+   struct TabBar {
+      static let home = UIImage(named: "home")
+      static let apps = UIImage(named:"apps")
+      static let bookmark = UIImage(named:"bookmark")
+      static let profile = UIImage(named:"profile")
+   }
+
+   struct Cards {
+      static let home = Image("card-image")
+      static let bookmark = Image("card-image-small")
+   }
 }

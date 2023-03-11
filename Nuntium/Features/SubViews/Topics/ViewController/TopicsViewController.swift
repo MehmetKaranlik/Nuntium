@@ -10,15 +10,25 @@ import Foundation
 
 import UIKit
 
+protocol TopicsDelegate  {
+   func didTapNext()
+}
 
 class TopicsViewController : UIViewController {
-   let topicsView = TopicsView()
+   var topicsView = TopicsView()
 
    override func viewDidLoad() {
       super.viewDidLoad()
+      topicsView.delegate = self
       let hosted = topicsView.toHostingController()
       hosted.addToVC(target: self)
    }
 
+}
+
+extension TopicsViewController : TopicsDelegate {
+   func didTapNext() {
+      replaceRoot(TabViewController())
+   }
 }
 
