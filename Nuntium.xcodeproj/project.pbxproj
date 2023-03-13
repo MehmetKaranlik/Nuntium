@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461F8E4B29BE073F00F4905F /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F8E4A29BE073F00F4905F /* NewsDetailView.swift */; };
+		461F8E4D29BF1EF300F4905F /* OptionsTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F8E4C29BF1EF300F4905F /* OptionsTile.swift */; };
 		4646E0D729B4ADD600A22041 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4646E0D629B4ADD600A22041 /* Icons.xcassets */; };
 		4646E0DB29B4BB4F00A22041 /* ActiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0DA29B4BB4F00A22041 /* ActiveButton.swift */; };
 		4646E0DD29B4C55100A22041 /* ButtonSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4646E0DC29B4C55100A22041 /* ButtonSizes.swift */; };
@@ -64,6 +66,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		461F8E4A29BE073F00F4905F /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
+		461F8E4C29BF1EF300F4905F /* OptionsTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTile.swift; sourceTree = "<group>"; };
 		4646E0D629B4ADD600A22041 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		4646E0DA29B4BB4F00A22041 /* ActiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveButton.swift; sourceTree = "<group>"; };
 		4646E0DC29B4C55100A22041 /* ButtonSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSizes.swift; sourceTree = "<group>"; };
@@ -133,6 +137,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		461F8E4829BE072E00F4905F /* NewsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				461F8E4929BE073200F4905F /* View */,
+			);
+			path = NewsDetail;
+			sourceTree = "<group>";
+		};
+		461F8E4929BE073200F4905F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				461F8E4A29BE073F00F4905F /* NewsDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		464305D429ABAC9400042318 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +238,7 @@
 		4646E0F529B5561100A22041 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				461F8E4829BE072E00F4905F /* NewsDetail */,
 				4646E0F629B5561800A22041 /* Topics */,
 			);
 			path = SubViews;
@@ -446,6 +467,7 @@
 			children = (
 				467BFF6629BA605100E039B0 /* BookMarkTile.swift */,
 				467BFF7929BB689700E039B0 /* TopicTile.swift */,
+				461F8E4C29BF1EF300F4905F /* OptionsTile.swift */,
 			);
 			path = Tiles;
 			sourceTree = "<group>";
@@ -777,6 +799,7 @@
 				4646E0EA29B4F01D00A22041 /* AuthTextField.swift in Sources */,
 				46B1F25729B2F89E00537AF4 /* AppConstants.swift in Sources */,
 				467BFF6729BA605100E039B0 /* BookMarkTile.swift in Sources */,
+				461F8E4D29BF1EF300F4905F /* OptionsTile.swift in Sources */,
 				46B1F25A29B2F92100537AF4 /* SplashViewModel.swift in Sources */,
 				467BFF6F29BB550D00E039B0 /* SearchTextField.swift in Sources */,
 				4646E11729B6BDE400A22041 /* HomeView.swift in Sources */,
@@ -798,6 +821,7 @@
 				4646E0F429B4F94E00A22041 /* SpecialLoginButton.swift in Sources */,
 				4646E0E529B4E8AA00A22041 /* WelcomeViewController.swift in Sources */,
 				4646E12329B71DBA00A22041 /* ProfileViewController.swift in Sources */,
+				461F8E4B29BE073F00F4905F /* NewsDetailView.swift in Sources */,
 				4646E0EF29B4F32200A22041 /* SecureTextField.swift in Sources */,
 				4646E11D29B71CF600A22041 /* BooksView.swift in Sources */,
 				467BFF7D29BB696E00E039B0 /* TopicGrid.swift in Sources */,
